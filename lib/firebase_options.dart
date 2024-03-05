@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:my_first_firebase_project/sensitivedata.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -50,19 +51,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAkbWERiVKXPVGSNcvpRDTuXPCCo-U1KMg',
+    apiKey: apiKeyandroid,
     appId: '1:859751514895:android:f597a215114fc7effb747a',
-    messagingSenderId: '859751514895',
-    projectId: 'my-first-firebase-projec-7de5d',
-    storageBucket: 'my-first-firebase-projec-7de5d.appspot.com',
+    messagingSenderId: messagingSenderId,
+    projectId: projectId,
+    storageBucket: storageBucket,
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCR9T4C5PDU49kbdR08YB4E4iGcpQGlgc0',
+    apiKey: apiKeyIOS,
     appId: '1:859751514895:ios:baeff0b6d6adac31fb747a',
-    messagingSenderId: '859751514895',
-    projectId: 'my-first-firebase-projec-7de5d',
-    storageBucket: 'my-first-firebase-projec-7de5d.appspot.com',
-    iosBundleId: 'com.example.myFirstFirebaseProject',
+    messagingSenderId: messagingSenderId,
+    projectId: projectId,
+    storageBucket: storageBucket,
+    iosBundleId: iosBundleId,
   );
 }

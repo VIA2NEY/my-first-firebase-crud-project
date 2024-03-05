@@ -1,0 +1,10 @@
+
+const String apiKeyandroid = '' ;
+const String messagingSenderId = '';
+const String projectId = '';
+const String storageBucket = '';
+
+const String apiKeyIOS = '';
+const String iosBundleId = '';
+
+idk how to get back datas 🤷‍♂️
