@@ -18,7 +18,7 @@ class FirestoreService {
 
   // Read : recuperer les notes de la BD
   Stream<QuerySnapshot> getNotesStream (){
-    final notesStream = lesNotes.orderBy('timestamp_create', descending: true).snapshots();
+    final notesStream = lesNotes.orderBy('timestamp', descending: true).snapshots();
 
     return notesStream;
   }

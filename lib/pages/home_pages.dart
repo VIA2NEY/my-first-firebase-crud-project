@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: SafeArea(
         child: StreamBuilder(
-          stream: firestoreService.getNotesStream(), 
+          stream: firestoreService.getNotesStream(),
           builder: (context, snapshot) {
 
             // si on a des donnes recuperons tout les docs de la snapshot.
