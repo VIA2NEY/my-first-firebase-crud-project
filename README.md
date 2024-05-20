@@ -27,3 +27,5 @@ https://phoenixnap.com/kb/update-node-js-version#ftoc-heading-12
 
 https://stackoverflow.com/questions/66471375/error-failed-to-list-firebase-projects-see-firebase-debug-log-for-more-info
 
+https://firebase.flutter.dev/docs/firestore/usage
+
