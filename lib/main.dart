@@ -3,11 +3,24 @@ import 'package:flutter/material.dart';
 import 'package:my_first_firebase_project/firebase_options.dart';
 import 'package:my_first_firebase_project/pages/home_pages.dart';
 
+import 'package:device_preview/device_preview.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const MyApp());
+  // runApp(const MyApp());
+
+  runApp(
+    DevicePreview(
+      enabled: true,
+        tools: const [
+          ...DevicePreview.defaultTools,
+        ],
+      builder: (context) => MyApp(), // Wrap your app
+    )
+  );
+  
 }
 
 class MyApp extends StatelessWidget {
