@@ -23,6 +23,8 @@ https://firebase.google.com/docs/flutter/setup?hl=fr&platform=android
 
 https://firebase.google.com/docs/cli?hl=fr#setup_update_cli
 
+https://www.youtube.com/watch?v=sMzAwWpmOrg
+
 https://phoenixnap.com/kb/update-node-js-version#ftoc-heading-12
 
 https://stackoverflow.com/questions/66471375/error-failed-to-list-firebase-projects-see-firebase-debug-log-for-more-info
